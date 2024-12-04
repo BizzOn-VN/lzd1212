@@ -355,4 +355,10 @@ img{
   .headline-1 p.font-1ftv{
     font-size: calc(20px + 1vw);
   } 
+  .md-row-sp{
+    width: 90%;
+  }
+  .md-row-sp .col-4{
+    padding: 0px 5px;
+  }
 }
