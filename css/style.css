@@ -159,6 +159,10 @@ img{
   width: 32%;
   margin-right: 2%;
 }
+.headline-2 .bot-headline a:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
 .headline-2 .bot-headline .img-bao{
   margin-right: 0px;
 }
