@@ -229,6 +229,8 @@ img{
 .headline-4 a{
   color: #FFF;
   display: block;
+}
+.headline-4 a span{
   text-decoration: underline;
 }
 .md-popup{
