@@ -158,6 +158,9 @@ img{
   float: left;
   width: 32%;
   margin-right: 2%;
+  background: url(../images/bg-img-kbb.png);
+  background-size: 100% 100%;
+  padding: 4% 5% 8%;
 }
 .headline-2 .bot-headline a:hover{
   transform: scale(1.1);
@@ -165,9 +168,16 @@ img{
 }
 .headline-2 .bot-headline .img-bao{
   margin-right: 0px;
+  padding: 4% 6% 8%;
 }
-.headline-2 .bot-headline .img-bua{
-  margin-top: 5%;
+.headline-2 .bot-headline a.active{
+  background: url(../images/bg-img-kbb-2.png);
+  background-size: 100% 100%;
+  transform: scale(0.9);
+  margin-top: 2%;
+}
+.headline-2 .bot-headline a.active:hover{
+  transform: scale(1.0);
 }
 .headline-3{
   width: 60%;
@@ -302,7 +312,18 @@ img{
   padding: 10px 30px 7px;
   border-radius: 5px;
 }
+
 .fancybox-slide--html .fancybox-close-small{
+  background: url(../images/ico-close.png) no-repeat;
+  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+.md-popup-4 .fancybox-close-small{
+  display: none;
+}
+.fancybox-button svg{
   display: none;
 }
 .md-mobile{
