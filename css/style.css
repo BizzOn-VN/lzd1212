@@ -268,7 +268,7 @@ img{
   display: table;
   margin: 0 auto 10px auto;
 }
-.md-popup-3 input[type='text']{ 
+.md-popup-3 input[type='email']{ 
   padding: 10px 10px;
   background: #FFF;
   border: 3px solid #93a9dc;
@@ -277,7 +277,7 @@ img{
   border-radius: 5px;
   width: 100%;
 }
-.md-popup-3 input[type='text']::placeholder{
+.md-popup-3 input[type='email']::placeholder{
 
 }
 .md-popup-3 input[type='button']{
