@@ -170,7 +170,7 @@ img{
   margin-right: 0px;
   padding: 4% 6% 8%;
 }
-.headline-2 .bot-headline a.active{
+.active{
   background: url(../images/bg-img-kbb-2.png);
   background-size: 100% 100%;
   transform: scale(0.9);
@@ -178,7 +178,7 @@ img{
   transition-duration: 0.5s;
 }
 .headline-2 .bot-headline a.active:hover{
-  transform: scale(1.0);
+  transform: scale(0.9);
 }
 .headline-3{
   width: 60%;

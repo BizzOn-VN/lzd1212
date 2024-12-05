@@ -42,3 +42,7 @@ $(window).scroll(function() {
         }, 1000);
     }
 });
+
+$('.headline-2 .bot-headline a').click(function(){
+  $(this).addClass('active');
+});
