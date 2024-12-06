@@ -208,7 +208,6 @@ img{
 .md-row-sp .row{
   position: relative;
   z-index: 1;
-  margin-bottom: 20px;
 }
 .md-row-sp .col-4{
   position: relative;
@@ -221,7 +220,7 @@ img{
   position: absolute;
   left: 49%;
   transform: translateX(-50%);
-  bottom: 13%;
+  bottom: 10%;
   background: transparent;
   width: 48%;
   height: 7%;
